@@ -8,7 +8,7 @@
       amazon.aws.ec2_security_group:
         name: "web-app-sec"
         description: "Sec group for app web-app"
-        region: "eu-west-3"
+        region: "{{ region }}"
         access_key: "124gfsd23rwddsf2"
         rules:
           - proto: tcp
