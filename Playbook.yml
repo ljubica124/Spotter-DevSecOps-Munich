@@ -64,7 +64,7 @@
         - 59
         - 22
 
-- name: run multiple commands on remote nodes #reboot
+- name: run multiple commands on remote nodes
   cisco.iosxr.iosxr_command:
     commands:
       - show version
